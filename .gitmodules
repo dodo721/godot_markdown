@@ -2,3 +2,6 @@
 	path = godot-cpp
 	url = https://github.com/godotengine/godot-cpp.git
 	branch = 4.3
+[submodule "md4c"]
+	path = md4c
+	url = git@github.com:mity/md4c.git

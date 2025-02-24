@@ -1,7 +1,7 @@
-#ifndef EXAMPLE_REGISTER_TYPES_H
-#define EXAMPLE_REGISTER_TYPES_H
+#ifndef GODOT_MARKDOWN_TYPES_H
+#define GODOT_MARKDOWN_TYPES_H
 
-void initialize_gdextension_types();
-void uninitialize_gdextension_types();
+void initialize_godot_markdown_types();
+void uninitialize_godot_markdown_types();
 
-#endif // EXAMPLE_REGISTER_TYPES_H
+#endif // GODOT_MARKDOWN_TYPES_H
