@@ -15,8 +15,9 @@ void initialize_godot_markdown_types(ModuleInitializationLevel p_level)
 		return;
 	}
 	GDREGISTER_CLASS(MDTextLabel);
-	GDREGISTER_CLASS(MD2BBConverter);
 	GDREGISTER_CLASS(MD2BBFormat);
+	GDREGISTER_CLASS(MD2BBHeaderFormat);
+	GDREGISTER_CLASS(MD2BBCellFormat);
 }
 
 void uninitialize_godot_markdown_types(ModuleInitializationLevel p_level) {
